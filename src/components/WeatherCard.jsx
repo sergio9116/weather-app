@@ -33,7 +33,7 @@ const WeatherCard = ({weather, temp}) => {
                     temp?.fah+' °F'
             }
         </h3>
-        <button onClick={handleTemp}>
+        <button className='weather__btn' onClick={handleTemp}>
             Change to {isCel?'°F':'°C'}
         </button>
     </div>

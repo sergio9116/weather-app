@@ -52,3 +52,23 @@
         justify-content: center;
     }
 }
+
+@media (min-width: 701px) {
+    .weather__card {
+        width: 80%;
+        height: 80%;
+        align-items: center;
+        justify-content: center; 
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .weather__place {
+        font-size: 25px;
+    }
+
+    .weather__btn {
+        padding: 8px 13px;
+        font-size: 17px;
+    }
+}
